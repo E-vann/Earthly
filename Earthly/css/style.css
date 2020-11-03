@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+html {
+    margin: 0;
+    padding: 0;
+    font-family: url('https://fonts.googleapis.com/css?family=Poppins');
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Poppins';
+}
+
+
+/* --- header --- */
+
+header {
+    width: 70vw;
+    margin-bottom: 50px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header ul .page:hover {
+    border-bottom: solid;
+}
+
+header ul img {
+    height: 100px;
+}
+
+
+/* --- main --- */
+
+main {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main div:first-child {
+    margin-right: 50px;
+}
+
+main .sousPartie {
+    width: 35vw;
+    min-height: 400px;
+    background-color: #ebebeb;
+    border-radius: 90px;
+    transition: 0.4s;
+}
+
+.sousPartie:hover {
+    background-color: #dedede;
+}
+
+.sousPartie h2 {
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.sousPartie #cherche {
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#cherche label {
+    font-size: 25px;
+    margin: 15px;
+    width: 100%;
+}
+
+#cherche input {
+    width: 250px;
+    margin: 15px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#cherche input:focus {
+    background-color: gray;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+
+/* --- Mon Compte --- */
+
+main #inscriptionConnexion {
+    width: 80vw;
+    margin: 0;
+    min-height: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+#inscriptionConnexion p,
+a {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+#inscriptionConnexion a:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.77);
+    text-decoration: underline;
+}
+
+#photoProfil {
+    border-radius: 90px;
+}
+
+#photoProfil img {
+    height: 100px;
+    border-radius: 90px;
+}
+
+#compte {
+    width: 60vw;
+}
+
+
+/* --- inscription --- */
+
+#inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#inscription form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#inscription form label {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#inscription h2 {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+#inscription input {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+#inscription .age {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    -webkit-appearance: none;
+}
+
+.select {
+    position: relative;
+    width: 100px;
+}
+
+.select::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    right: 10px;
+    top: 0;
+    background-image: url("../images/angle-down-solid.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sub {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+#sub input {
+    background-color: white;
+    font-size: 16px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* --- header --- */
+
+header {
+    width: 70vw;
+    margin-bottom: 50px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header ul .active {
+    border-bottom: solid;
+}
+
+header ul .page:hover {
+    border-bottom: solid;
+}
+
+header ul img {
+    height: 150px;
+}
+
+header ul img:hover {
+    opacity: .8;
+}
+
+header ul img {
+    opacity: 1;
+}
+
+
+/* --- main --- */
+
+main {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main div:first-child {
+    margin-right: 50px;
+}
+
+main .sousPartie {
+    width: 35vw;
+    min-height: 400px;
+    background-color: #ebebeb;
+    border-radius: 90px;
+    transition: 0.4s;
+}
+
+.sousPartie:hover {
+    background-color: #dedede;
+}
+
+.sousPartie h2 {
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.sousPartie #cherche {
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#cherche label {
+    font-size: 25px;
+    margin: 15px;
+    width: 100%;
+}
+
+#cherche input {
+    width: 250px;
+    margin: 15px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#cherche input:focus {
+    background-color: gray;
+    border: none;
+    color: white;
+}
+
+
+/* --- Mon Compte --- */
+
+main #inscriptionConnexion {
+    width: 80vw;
+    margin: 0;
+    min-height: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+
+/*#inscription p, #inscription a {
+
+sinon ça se reporte partout
+enfin si c'est ce que t'as voulu faire*/
+
+#inscriptionConnexion p,
+a {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+#inscriptionConnexion a:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.77);
+    text-decoration: underline;
+}
+
+#photoProfil {
+    border-radius: 90px;
+}
+
+#photoProfil img {
+    height: 100px;
+    border-radius: 90px;
+}
+
+#compte {
+    width: 60vw;
+}
+
+
+/* --- inscription --- */
+
+#inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#inscription form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#inscription form label {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#inscription h2 {
+    margin: 20px;
+    margin-top: 40px;
+}
+
+#inscription input {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+
+/* --- map --- */
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    width: auto;
+    height: auto;
+    opacity: 0.8;
+}
+
+.header:hover {
+    opacity: 1;
+}
+
+.main {
+    position: absolute;
+    width: 100vw;
+    justify-content: flex-start;
+}
+
+.header {
+    margin-right: 80vw;
+}
+
+.header img {
+    position: relative;
+    height: 200px;
+}
+
+.regions {
+    fill: rgb(29, 193, 32);
+}
+
+.regions:hover {
+    fill: rgb(19, 168, 22);
+    z-index: 2;
+    filter: url(#dropshadow);
+}
+
+.main .sousPartie {
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    width: 40vw;
+    margin: 5vh 5vw 5vh 55vw;
+    flex-direction: column;
+}
+
+.main .sousPartie h3 {
+    font-weight: 100;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.main .sousPartie:target {
+    visibility: visible;
+}
+
+.main .sousPartie h4 {
+    font-weight: 100;
+    font-size: 30px;
+    margin: 0 50% 20px 0;
+}
+
+.main .sousPartie .more {
+    background-color: #00ff45;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    align-content: center;
+    margin-top: 35%;
+}
+
+.main .sousPartie .more p {
+    line-height: 80px;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .sousPartie .more:hover {
+    background-color: #0cd643;
+    box-shadow: 0 0 20px #00ff45;
+}
+
+.main .sousPartie .more:hover p {
+    color: #d7e3d9;
+}
+
+.main .sousPartie .close {
+    padding: 0;
+    margin: 40px 0 0 0;
+    background-color: lightgray;
+    width: 40px;
+    height: 40px;
+    font-weight: 900;
+    transform: none;
+    border-radius: 15px;
+}
+
+.main .sousPartie .close a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    transform: rotate(45deg) translate(-15px, -12px);
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.main .sousPartie .close:hover {
+    background-color: gray;
+}
+
+.main .sousPartie .close:hover p {
+    color: black;
+}
+
+#loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 3;
+}
+
+#loading h1 {
+    font-size: 80px;
+    font-family: url("https://www.gfxfile.com/6vt/EM-Chronica.Pro.zip");
+    animation: apparition 2s cubic-bezier(.07, 1.35, .75, 1.47);
+    letter-spacing: 10px;
+}
+
+@keyframes apparition {
+    0% {
+        letter-spacing: 50px;
+    }
+    100% {
+        letter-spacing: 10px;
+    }
+}
